@@ -1,0 +1,23 @@
+{
+  "name": "holidayzer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon src/app.js",
+    "test": "NODE_OPTIONS=--experimental-vm-modules jest -i --color --passWithNoTests"
+  },
+  "keywords": [],
+  "author": "Instrutor Frank Rocha",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0",
+    "nodemon": "^2.0.22",
+    "supertest": "^6.3.3"
+  }
+}
